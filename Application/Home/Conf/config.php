@@ -2,10 +2,10 @@
 return array(
 	//'配置项'=>'配置值'
 	'DB_TYPE' => 'mysql',
-	'DB_HOST' => '192.168.2.181',
-	'DB_NAME' => 'baikev2',
+	'DB_HOST' => '58.83.218.139',
+	'DB_NAME' => 'baike',
 	'DB_USER' => 'root',
-	'DB_PWD' => '',
+	'DB_PWD' => 'root',
 	'DB_PORT' => '3306',
 	'DB_PREFIX' => 'jk_',
 	'URL_CASE_INSENSITIVE' =>true，
