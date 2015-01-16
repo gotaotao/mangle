@@ -15,9 +15,9 @@ return array(
 	'URL_ROUTER_ON'   => true, //开启路由
 	'URL_ROUTE_RULES' => array( //定义路由规则
 
-	    'view/:did\d'             => array('doc/sd','from=w'),
-	    'sview/:did\d'             => array('doc/sd','from=s'),
-        'list'                => 'Doc/list',
+	    'view/:did\d'             => array('home/doc/sd','from=w'),
+	    'sview/:did\d'             => array('home/doc/sd','from=s'),
+        'list'                => 'Home/Doc/list',
        
 	),
 );
